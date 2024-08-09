@@ -1,1 +1,1 @@
-# Cyber-Threat-Intelligence
+# ctiTermstr
