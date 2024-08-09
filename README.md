@@ -2,7 +2,7 @@
 CTITerms, siber tehdit istihbaratı alanında kullanılmak üzere özel bir domain için fine-tuning yapılmış bir dil modeli (LLM) geliştirmeyi amaçlar. Bu proje, özellikle İngilizce-Türkçe çeviri çiftlerini kullanarak, belirli bir alanda (domain-specific) çeviri yapabilecek bir model oluşturmayı hedeflemektedir.
 
 ## Proje Amacı
-CTITerms projesinin amacı, siber tehdit istihbaratı (CTI) kapsamında kullanılan terimlerin doğru ve etkili bir şekilde çevrilmesini sağlayacak bir model geliştirmektir. Proje, LoRA optimizasyonu, T5 çeviri modeli ve mBERT gibi çok dilli modeller kullanılarak, bu alana özgü bir çeviri modeli üretmeyi hedeflemektedir.
+CTITerms projesinin amacı, siber tehdit istihbaratı (CTI) kapsamında kullanılan terimlerin doğru ve etkili bir şekilde çevrilmesini sağlayacak bir model geliştirmektir. Proje, LoRA optimizasyonu, T5 çeviri modeli ve mBART gibi çok dilli modeller kullanılarak, bu alana özgü bir çeviri modeli üretmeyi hedeflemektedir.
 
 ## Proje Kapsamı
 Proje, aşağıdaki veri kaynaklarından elde edilen çeviri çiftleri üzerine odaklanır:
@@ -16,18 +16,13 @@ Proje, aşağıdaki veri kaynaklarından elde edilen çeviri çiftleri üzerine 
 
 ## Kullanılan Yöntemler ve Teknikler
 - **LoRA**: Model optimizasyonu
-- **T5**: Çeviri
-- **mBERT**: Çok dilli modelleme
+- **mBART**: Çok dilli modelleme
 - **Tokenization**: Veri parçalama
-- **Beam Search**: Arama algoritması
 - **Fine-Tuning**: Model ince ayarı
 
 ## Veri Seti
-- CSV formatında İngilizce-Türkçe çeviri çiftleri
-- Veri seti eğitim ve doğrulama olarak ikiye ayrıldı
-- Tokenizer ve model yüklendi
-- Ön işleme uygulandı
-- Model eğitildi ve test edildi
+TMMOB Bilgisayar Mühendsiliği Odasının oluşturmuş olduğu "Siber Güvenlik Terim Karşılıkları" adlı dosya kullanıldı.
+Belgeye linkten ulaşabilirsiniz: https://www.bmo.org.tr/wp-content/uploads/2023/12/Siber-Guvenlik-Terim-Karsiliklari.pdf 
 
 ## Kurulum Talimatları
 1. Projeyi klonlayın:
