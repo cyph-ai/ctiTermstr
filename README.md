@@ -1,7 +1,5 @@
 # CTITerms
 
-CTITerms, siber tehdit istihbaratı alanında kullanılmak üzere özel bir domain için fine-tuning yapılmış bir dil modeli (LLM) geliştirmeyi amaçlar. Bu proje, özellikle İngilizce-Türkçe çeviri çiftlerini kullanarak, belirli bir alanda (domain-specific) çeviri yapabilecek bir model oluşturmayı hedeflemektedir.
-
 ## Proje Amacı
 CTITerms projesinin amacı, siber tehdit istihbaratı (CTI) kapsamında kullanılan terimlerin doğru ve etkili bir şekilde çevrilmesini sağlayacak bir model geliştirmektir. Proje, LoRA optimizasyonu, T5 çeviri modeli ve mBERT gibi çok dilli modeller kullanılarak, bu alana özgü bir çeviri modeli üretmeyi hedeflemektedir.
 
