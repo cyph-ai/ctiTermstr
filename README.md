@@ -39,12 +39,6 @@ Proje, aşağıdaki veri kaynaklarından elde edilen çeviri çiftleri üzerine 
     ```bash
     pip install -r requirements.txt
     ```
-3. Veri setini hazırlayın:
-    - CSV formatındaki veri setini `data/` klasörüne yükleyin.
-4. Modeli eğitin:
-    ```bash
-    python train.py
-    ```
 
 ## Lisans
 Bu proje, Apache 2.0 lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
