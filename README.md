@@ -5,7 +5,7 @@ CTITerms, siber tehdit istihbaratı alanında kullanılmak üzere özel bir doma
 CTITerms projesinin amacı, siber tehdit istihbaratı (CTI) kapsamında kullanılan terimlerin doğru ve etkili bir şekilde çevrilmesini sağlayacak bir model geliştirmektir. Proje, LoRA optimizasyonu, mBART gibi çok dilli modeller kullanılarak, bu alana özgü bir çeviri modeli üretmeyi hedeflemektedir.
 
 ## Proje Kapsamı
-Proje, aşağıdaki veri kaynaklarından elde edilen çeviri çiftleri üzerine odaklanır:
+Proje, aşağıdaki veri kaynaklarından elde edilen çevirmeyi hedefleyerek, modeli fine tune etmiştir:
 - Endüstri raporları
 - Güvenlik raporları
 - Olay raporları
